@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários de Laboratório</title>
+    <link rel="stylesheet" href="/horarios.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <header class="d-flex justify-content-between align-items-center p-3 bg-light border-bottom">
+        <div class="logo-if">
+            <img src="/logoif.png" alt="Logo IF" style="height: 50px; border-radius: 10px;">
+        </div>
+        <div class="logo-aipe">
+            <img src="/logo.png" alt="Logo AIPE" style="height: 60px;">
+        </div>
+        <div class="header-icons">
+            <a href="/login1.html" style="color: green; text-decoration: none;">
+                <i class="bi bi-person-fill fs-3 me-3"></i>
+            </a>
+            <a href="/pagina-do-menu" style="color: green; text-decoration: none;">
+                <i class="bi bi-list fs-3"></i>
+            </a>
+        </div>
+    </header>
+    <div class="main-layout-horarios">
+        <aside class="sidebar-horarios">
+            <h2>Solicitações pendentes</h2> <button class="btn-selecionar-horarios">
+                Selecionar horários
+            </button>
+            <div class="solicitacoes-lista-horarios">
+                <div class="item-solicitacao-horarios">
+                    <p><strong>João Pedro</strong> - Tec. Info</p>
+                    <p>Data: 12/07/2025</p>
+                    <p>COD: 12345674</p>
+                     <i class="bi bi-chevron-right"></i>
+                </div>
+                 <div class="item-solicitacao-horarios">
+                    <p><strong>Kleber Freitsa</strong> - Tec. Info</p>
+                    <p>Data: 18/11/2024</p>
+                    <p>COD: 12345674</p>
+                    <i class="bi bi-chevron-right"></i>
+                </div>
+                 <div class="item-solicitacao-horarios">
+                    <p><strong>Daniel Carvalho</strong> - Tec. Info</p>
+                    <p>Data: 24/07/2025</p>
+                    <p>COD: 12345674</p>
+                    <i class="bi bi-chevron-right"></i>
+                </div>
+                 <div class="item-solicitacao-horarios">
+                    <p><strong>Fernando S.</strong> - Tec. Info</p>
+                    <p>Data: 21/12/2024</p>
+                    <p>COD: 12345674</p>
+                    <i class="bi bi-chevron-right"></i>
+                </div>
+                <div class="item-solicitacao-horarios">
+                    <p><strong>João Vicente</strong> - Tec. Info</p>
+                    <p>Data: 07/01/2025</p>
+                    <p>COD: 12345674</p>
+                    <i class="bi bi-chevron-right"></i>
+                </div>
+                </div>
+        </aside>
+
+        <section class="content-horarios">
+            <h2>Horários de laboratório</h2>
+            <div class="horarios-header">
+                 <div class="date-pill">31/07/24</div>
+            </div>
+
+            <div class="laboratorios-list">
+                <div class="laboratorio-card">
+                    <div class="lab-info">
+                        <i class="bi bi-laptop"></i> <h3>Lab.Informatica 1</h3>
+                    </div>
+                    <div class="horario-item">
+                        <span>7:00 - 8:40</span>
+                        <span>Algoritmos e logica de programação</span>
+                    </div>
+                    <div class="horario-item">
+                        <span>8:55 - 10:30</span>
+                        <span>Sistemas operacionais 1</span>
+                    </div>
+                     <div class="horario-item free">
+                        <span>10:55 - 12:30</span>
+                        <span>Livre</span>
+                    </div>
+                     <div class="horario-item">
+                        <span>13:00 - 13:50</span>
+                        <span>Fundamentos de redes</span>
+                    </div>
+                     <div class="horario-item free">
+                        <span>13:50 - 14:40</span>
+                        <span>Livre</span>
+                    </div>
+                     <div class="horario-item">
+                        <span>14:55 - 15:50</span>
+                        <span>Linguagem de programação</span>
+                    </div>
+                    <div class="horario-item free">
+                        <span>15:50 - 16:50</span>
+                        <span>Livre</span>
+                    </div>
+                    </div>
+
+                 <div class="laboratorio-card">
+                    <div class="lab-info">
+                        <i class="bi bi-laptop"></i>
+                        <h3>Lab.Informatica 2</h3>
+                    </div>
+                     <div class="horario-item free">
+                        <span>7:00 - 8:40</span>
+                        <span>Livre</span>
+                    </div>
+                     <div class="horario-item">
+                        <span>8:55 - 10:30</span>
+                        <span>Banco de Dados</span>
+                    </div>
+                    </div>
+
+                <div class="laboratorio-card">
+                    <div class="lab-info">
+                        <i class="bi bi-laptop"></i>
+                        <h3>Lab.Informatica 3</h3>
+                    </div>
+                     <div class="horario-item">
+                        <span>7:00 - 8:40</span>
+                        <span>Programação Web</span>
+                    </div>
+                    </div>
+
+            </div>
+        </section>
+    </div>
+    <footer class="fixed-bottom d-flex justify-content-end p-3 ">
+        <button class="btn btn-light border">
+            <i style="color: green;" class="bi bi-chat-left-text"></i>
+        </button>
+    </footer>
+</body>
+</html>

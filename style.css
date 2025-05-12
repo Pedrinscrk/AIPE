@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    margin-bottom: 80px; 
+    background-color: #FFFFFF;
+}
+
+.header-icons i {
+    cursor: pointer;
+}
+
+.banner-section img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 300px;
+}
+
+.btn-custom-green {
+    background-color: #008000; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom-green:hover {
+    background-color: #006400; 
+    color: white;
+}
+
+.btn-custom-green i {
+    font-size: 2.5rem !important;
+}
+
+.btn-custom-green span {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: transparent; 
+}
+
+
+@media (max-width: 768px) {
+    .header-icons {
+        font-size: 1.8rem; 
+    }
+    .btn-custom-green i {
+        font-size: 2rem !important;
+    }
+    .btn-custom-green span {
+        font-size: 0.8rem;
+    }
+    .logo-if img {
+        height: 30px;
+    }
+    .logo-aipe img {
+        height: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    .buttons-section .row > div {
+        margin-bottom: 1rem; 
+    }
+}
